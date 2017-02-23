@@ -83,6 +83,8 @@ brew tap dart-lang/dart
 brew install dart --with-content-shell --with-dartium
 {% endprettify %}   
 </div>
+Please take note of the contents in the "Caveats" section listing the Dart SDK path and Dartium location. You'll need these in the next steps when setting up your IDE.
+
 More information:
 [installing and updating Dart]({{site.dartlang}}/install)
 
@@ -107,7 +109,7 @@ Here's how to use WebStorm to create a web app that uses Angular:
 1. Choose **Create New Project** from WebStorm's welcome screen,
 or **File > New > Project...** from the menu.  A dialog appears.
 1. Choose **Dart** from the list on the left.
-1. If the **Dart SDK path** and **Dartium path** fields don't have values, enter them.
+1. If the **Dart SDK path** and **Dartium path** fields don't have values, enter them. 
 1. Edit the **Location** field to set the app location and name. 
 1. Select **Generate sample content** to show the list of templates.
 1. Choose the **Angular Web Application** template.
