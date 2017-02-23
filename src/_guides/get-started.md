@@ -82,8 +82,9 @@ installing Dart is easy.
 brew tap dart-lang/dart
 brew install dart --with-content-shell --with-dartium
 {% endprettify %}   
-</div>
+
 Please take note of the contents in the "Caveats" section listing the Dart SDK path and Dartium location. You'll need these in the next steps when setting up your IDE.
+</div>
 
 More information:
 [installing and updating Dart]({{site.dartlang}}/install)
